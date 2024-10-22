@@ -1,8 +1,10 @@
+import QrGenerator from "./components/index"
+
 
 function App() {
   return (
     <div className="App">
-      Hello
+      <QrGenerator />
     </div>
   );
 }
